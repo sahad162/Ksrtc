@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KSRTC-SWIFT | ENTE KSRTC</title>
+    <link
+      rel="shortcut icon"
+      href="https://files.lexology.com/images/lexology/static/a6172213-7cfc-4882-adfa-ee615871ede1.jpg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="head conatiner-fluid position-relative">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid scnd_head row">
+          <div class="col-6">
+            <img
+              class="navbar-brand img-fluid w-25"
+              src="./assets/images/swift_logo.png"
+              alt=""
+            />
+          </div>
+
+          <div class="col-6">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav gap-4 nav_li">
+                <a class="active" aria-current="page" href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Our Bus</a>
+                <a href="#">Services</a>
+                <a href="#">Pages</a>
+                <a href="#">Contact</a>
+                <button><i class="fa-solid fa-user"></i> Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row container hero_row">
+        <div class="col-6 mt-5 position-relative hero_1">
+          <div class="bus_image">
+            <img src="./assets/logos/ksrtc-image.png" alt="" />
+          </div>
+        </div>
+        <div class="col-6 hero_2">
+          <div class="content" data-aos="fade-up" data-aos-duration="2000">
+            <h3>Kerala Swift Public Transportation.</h3>
+            <h1>Expertly Connecting <br />People and Destinations</h1>
+            <div
+              class="para"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-delay="1000"
+            >
+              <p>
+                Group travel redefined with modern buses,expert drivers, and
+                personalized service for every trip
+              </p>
+              <div class="buttons_content">
+                <button class="btn btn-warning">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking">
+        <div class="booking_content d-flex">
+          <div class="first_part d-flex flex-column ">
+            <h3 class="mt-5">Call Now!</h3>
+            <div class="book_one d-flex mt-4">
+              <div class="logo_call bg-warning">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="book_two">
+                <p>call for detailed information <br> <span>9447071021</span> </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class=" scnd_part">
+            <form action="" class="text-center">
+              <h2 >Online Booking</h2>
+              <div class="form_row mt-5 d-flex gap-5">
+                <div class="column1">
+                  <div class="travel">
+                    <img
+                      src="https://assets.onlineksrtcswift.com/img/theme64/ic_gray_frcity.svg"
+                      alt=""
+                    />
+                    <input type="search"  placeholder="Travelling from"/>
+                  </div>
+                  <div class="travel mt-4">
+                    <img
+                      src="https://assets.onlineksrtcswift.com/img/theme64/ic_cal_gray.svg"
+                      alt=""
+                    />
+                    <input type="search"  placeholder="Journey Date"/>
+                  </div>
+                </div>
+                <div class="column2 ">
+                    <div class="travel">
+                        <img
+                          src="https://assets.onlineksrtcswift.com/img/theme64/ic_gray_frcity.svg"
+                          alt=""
+                        />
+                        <input type="search"  placeholder="Going To"/>
+                      </div>
+                      <div class="travel mt-4">
+                        <img
+                          src="https://assets.onlineksrtcswift.com/img/theme64/ic_cal_gray.svg"
+                          alt=""
+                        />
+                        <input type="search"  placeholder="Return date"/>
+                      </div>
+
+                </div>
+              </div>
+              <button class="btn btn-danger mt-4">Search Bus</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="destinatons">
+        <div class=" destinaton_part" style="margin-left: 100px; ">
+            <div class="frst_des" data-aos="fade-right" data-aos-duration="1000">
+                <h2>Destination</h2>
+                <h1>Favourite Destinations</h1>
+            </div>
+            <div  class="scnd_des" data-aos="fade-left"data-aos-duration="1000">
+                <button class="btn btn-warning mt-4"><i class="fa-solid fa-arrow-right"></i> Other Destinations</button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-3 card_des position-relative " style="margin-left: 100px;" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-up" data-aos-duration="1500">
+                <img src="https://images.pexels.com/photos/1065753/pexels-photo-1065753.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="card_content">
+                <h2>Munnar</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn btn-outline-warning">Book Destination</button>
+                </div>
+            </div>
+            <div class="col-3 card_des position-relative" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-up" data-aos-duration="1500" data-aos-delay="500">
+                <img src="https://media.istockphoto.com/id/685980172/photo/a-canoe-parked-at-sides-of-backwater-canal-on-a-partial-cloudy-afternoon-at-alleppey-in-kerala.jpg?s=612x612&w=0&k=20&c=hPiQ004f9EVEyCxHn_FmDY2tk48_Gb1tsOU8yt2QuW8=" alt="">
+                <div class="card_content ">
+                    <h2>Allapey</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="btn btn-outline-warning">Book Destination</button>
+                    </div>
+            </div>
+            <div class="col-3 card_des position-relative" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-up" data-aos-duration="1500" data-aos-delay="1000">
+                <img src="https://images.pexels.com/photos/29069958/pexels-photo-29069958.jpeg?cs=srgb&dl=pexels-alex-jaison-1690209427-29069958.jpg&fm=jpg" alt="">
+                <div class="card_content">
+                    <h2>Kovalam</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="btn btn-outline-warning">Book Destination</button>
+                    </div>
+            </div>
+            <div class="col-3 card_des position-relative" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-up" data-aos-duration="1500" data-aos-delay="1500">
+                <img src="https://media.istockphoto.com/id/1029797404/photo/cheenavala-in-kochi.jpg?s=612x612&w=0&k=20&c=njgmKK-rdoZS0BWz0MkZuWJHzpE0qzwKuqtpsBz-BB0=" alt="">
+                <div class="card_content">
+                    <h2>Kochi</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="btn btn-outline-warning">Book Destination</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
